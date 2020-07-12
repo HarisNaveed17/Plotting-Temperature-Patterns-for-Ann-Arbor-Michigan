@@ -62,7 +62,7 @@ def plot_graph(high, low, record_h_days, record_l_days, record_ls, record_hs, x_
 
 
 # Loading and setting up the data frames
-weather_data = pd.read_csv('weather_data (Coursera version).csv', index_col='Date', parse_dates=True)
+weather_data = pd.read_csv('weather_data.csv', index_col='Date', parse_dates=True)
 weather_data.sort_index(inplace=True)
 weather_data_14 = weather_data.drop(weather_data['2015-01-01':].index, axis=0)
 weather_data_15 = weather_data['2015-01-01':]
