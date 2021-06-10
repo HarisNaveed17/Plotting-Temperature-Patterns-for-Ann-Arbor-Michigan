@@ -31,7 +31,7 @@ The script follows this process:
 * Determines whether there are any leap years in the data and eliminates them. This is done because leap years can hinder our objective.
 * Finds the maximum/minimum temperature ever recorded on a day of the year (1 - 365) over the period 2005 - 2015.
 * Determines on what days were the 2015 max/min temperature values higher/lower than the highest/lowest values over the period 2005 - 2014.
-* The actual x - axis is from 1 - 365, but with some date time magic, we transform it into months.
+* The actual x - axis is from 1 - 365, but with some date time magic, I transform it into months.
 * It then plots the graph.
 
 ## **Conclusion:**
